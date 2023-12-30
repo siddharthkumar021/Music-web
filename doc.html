@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+</head>
+
+<body>
+
+
+  <nav class="nav">
+    <div class="logo"><img src="logo1.png"></div>
+
+    <ul class="nav-links">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Setting</a></li>
+
+    </ul>
+    <i class="fa-solid fa-magnifying-glass search-icon" id="searchIcon"></i>
+    <div class="search-box">
+      <i class="fa-solid fa-magnifying-glass search-icon" id="searchIcon"></i>
+      <input type="text" placeholder="Search here..." />
+    </div>
+
+  </nav>
+
+  <div class="container">
+
+    <div class="songList">
+      <h1>Best of NCS - No Copyright Sounds</h1>
+      <div class="songItemContainer">
+        <div class="songItem">
+          <img src="1.jpg" alt="1">
+          <span class="songName">Mulaqat</span>
+          <span class="songlistplay"><span class="timestamp">05:34<i id="1"
+                class=" songItemplay fa-sharp fa-regular fa-circle-play"></i></span></span>
+        </div>
+
+        <div class="songItem">
+          <img src="2.jpg" alt="1">
+          <span class="songName">Your Name</span>
+          <span class="songlistplay"><span class="timestamp">05:34<i id="2"
+                class=" songItemplay fa-sharp fa-regular fa-circle-play"></i></span></span>
+        </div>
+
+        <div class="songItem">
+          <img src="3.jpg" alt="1">
+          <span class="songName">Baarishein</span>
+          <span class="songlistplay"><span class="timestamp">05:34<i id="3"
+                class=" songItemplay fa-sharp fa-regular fa-circle-play"></i></span></span>
+        </div>
+
+        <div class="songItem">
+          <img src="4.jpg" alt="1">
+          <span class="songName">Co2</span>
+          <span class="songlistplay"><span class="timestamp">05:34<i id="4"
+                class=" songItemplay fa-sharp fa-regular fa-circle-play"></i></span></span>
+        </div>
+
+        <div class="songItem">
+          <img src="5.jpg" alt="1">
+          <span class="songName">All i want</span>
+          <span class="songlistplay"><span class="timestamp">05:34<i id="5"
+                class=" songItemplay fa-sharp fa-regular fa-circle-play"></i></span></span>
+        </div>
+
+        <div class="songItem">
+          <img src="6.jpg" alt="1">
+          <span class="songName">Behind the cloud</span>
+          <span class="songlistplay"><span class="timestamp">05:34<i id="6"
+                class=" songItemplay fa-sharp fa-regular fa-circle-play"></i></span></span>
+        </div>
+
+        <div class="songItem">
+          <img src="7.webp" alt="1">
+          <span class="songName">Sajni</span>
+          <span class="songlistplay"><span class="timestamp">05:34<i id="7"
+                class=" songItemplay fa-sharp fa-regular fa-circle-play"></i></span></span>
+        </div>
+
+        <div class="songItem">
+          <img src="8.webp" alt="1">
+          <span class="songName">Roz-Roz</span>
+          <span class="songlistplay"><span class="timestamp">05:34<i id="8"
+                class=" songItemplay fa-sharp fa-regular fa-circle-play"></i></span></span>
+        </div>
+
+       <div class="songItem">
+        <img src="9.webp" alt="1">
+        <span class="songName">Choo-lo</span>
+        <span class="songlistplay"><span class="timestamp">05:34<i id="9"
+              class=" songItemplay fa-sharp fa-regular fa-circle-play"></i></span></span>
+      </div>
+        
+      </div>
+    </div>
+    <div class="songBanner"></div>
+
+  </div>
+
+  <div class="bottom">
+    <input type="range" name="range" id="myProgressbar" min="0" value="0" max="100">
+    <div class="icon">
+      <!-----fontawesome icon----->
+      <i class="fa-3x fa-solid fa-backward-step" id="previous"></i>
+      <i class="fa-3x fa-sharp fa-regular fa-circle-play" id="masterPlay"></i>
+      <i class="fa-3x fa-solid fa-forward-step" id="next"></i>
+    </div>
+    <div class="songInfo">
+      <img src="plyaing.gif" width="94px" id="gif"> <span id="masterSongName"></span>
+    </div>
+  </div>
+
+
+  <script src="script.js   "></script>
+  <script src="https://kit.fontawesome.com/9ce2f39c0c.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
