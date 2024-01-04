@@ -2,25 +2,25 @@
 
 
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: jost;
 }
 
-body{
+body {
     background: wheat;
 }
 
-.nav{
-position: fixed;
-top: 0;
-left: 0;
-width: 100%;
-padding: 15px 200px;
-background: #040404;
-box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px 200px;
+    background: #040404;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .logo img {
@@ -31,43 +31,46 @@ box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .nav,
-.nav .nav-links{
+.nav .nav-links {
     display: flex;
     align-items: center;
 }
 
-.nav{
+.nav {
     justify-content: space-between;
 }
 
-a{
-    color:#fff;
+a {
+    color: #fff;
     text-decoration: none;
 }
-.nav .logo{
+
+.nav .logo {
     font-size: 22px;
     font-weight: 500;
 }
 
-.nav .nav-links{
+.nav .nav-links {
     column-gap: 20px;
     list-style: none;
 }
-.nav .nav-links a{
+
+.nav .nav-links a {
     transition: all 0.2s linear;
 }
-.nav.openSearch .nav-links a{
-    opacity: 0;  
+
+.nav.openSearch .nav-links a {
+    opacity: 0;
     pointer-events: none;
 }
 
-.nav .search-icon{
+.nav .search-icon {
     color: #e3e8e3;
     font-size: 20px;
     cursor: pointer;
 }
 
-.nav .search-box{
+.nav .search-box {
     position: absolute;
     right: 250px;
     height: 45px;
@@ -78,12 +81,12 @@ a{
     transition: all 0.2s linear;
 }
 
-.nav.openSearch .search-box{
-    opacity: 1;  
+.nav.openSearch .search-box {
+    opacity: 1;
     pointer-events: auto;
 }
 
-.search-box .search-icon{
+.search-box .search-icon {
     position: absolute;
     left: 15px;
     top: 50%;
@@ -91,7 +94,8 @@ a{
     color: #4a98f7;
     transform: translateY(-50%);
 }
-.search-box input{
+
+.search-box input {
     height: 100%;
     width: 100%;
     border: none;
@@ -140,19 +144,19 @@ a{
 }
 
 #myProgressbar {
-   width: 80vw;
-   cursor: pointer;
+    width: 80vw;
+    cursor: pointer;
 }
 
-.songItemContainer{
+.songItemContainer {
     margin-top: 44px;
 }
 
 .songItem {
     height: 50px;
     display: flex;
-    background-color: rgb(234, 234, 234);  
-    
+    background-color: rgb(234, 234, 234);
+
     color: #020202;
     margin: 12px 0;
     justify-content: space-between;
@@ -168,20 +172,20 @@ a{
 
 .timestamp {
     margin: 0 23px;
-    
+
 }
 
-.timestamp{
+.timestamp {
     cursor: pointer;
 }
 
-.songInfo{
+.songInfo {
     position: absolute;
     left: 2dvh;
     font-family: jost;
 }
 
-.songInfo img{
+.songInfo img {
     opacity: 0;
     transition: opacity 0.4s ease-in;
 }
